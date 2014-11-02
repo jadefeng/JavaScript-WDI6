@@ -1,0 +1,16 @@
+body {
+	color: green;
+	background-color: black;
+}
+
+
+.box {
+	min-width: 3em;
+	height: 3em;
+	display: inline-block;
+	border: 1px dashed green;
+	text-align: center;
+	line-height: 3em;
+	color: green;
+	margin: 0.1em;
+}
