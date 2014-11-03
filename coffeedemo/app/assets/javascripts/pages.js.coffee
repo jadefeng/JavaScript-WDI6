@@ -34,3 +34,22 @@ for i in [5..0]
 for item in items when item isnt 'wine'
 	console.log "You love " + item
 
+
+fridge = 
+	beer: ['beer1', 'beer2', 'beer3']
+	chips: ['bbq', 'potato', 'salt and vinegar']
+	consume: (item) ->
+		@beer.pop()			# Function which takes an argument item, also can be replaced with this.beer.pop()
+
+
+fridge.consume fridge.chips
+console.log fridge
+
+
+$(document).ready ->
+	$('button').on 'click', ->
+		console.log "Thank you for clicking"
+
+hedgehogs = [1..10]
+
+
