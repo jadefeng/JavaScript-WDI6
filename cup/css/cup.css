@@ -4,6 +4,7 @@ body {
 	background: url(background.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: white;
+	text-shadow: 0px 0px 10px black;
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -13,10 +14,18 @@ body {
 	margin: 0 auto;
 }
 
-.field {
+.field, .bet, .sweep2, .sweep5  {
 	float: left;
 }
 
-.field ul {
-	margin-top: 0;
+.sweep2, .sweep5 {
+	padding-right: 10px;
 }
+
+.active {
+	/*text-shadow: 0 0 10px black;*/
+	color: orange;
+	font-weight: bold;
+	text-decoration: underline
+}
+
